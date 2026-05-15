@@ -1,12 +1,12 @@
 # Frankentimer Prototype
 
-This project was created using **Gemini 3** as part of an exercise for the **CUNY AI Lab workshop**.
+This project was created using **Gemini 3** as an exercise for the **Spring 2026 CUNY AI Lab workshop series**. It is a functional example of [personal software](https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution).
 
 For more information and context on vibe coding prototypes, please visit the official workshop page:
 [CUNY AI Lab: Vibe Coding Prototypes](https://cuny-ai-lab.github.io/vibe-coding-prototypes)
 
 ## AI Disclosure
-This project incorporates Kari D. Weaver's (2024) [AI Use Disclosure Guide](https://crln.acrl.org/index.php/crlnews/article/view/26548/34482).
+This project incorporates Kari D. Weaver's (2024) [AI Use Disclosure Guide Framework](https://crln.acrl.org/index.php/crlnews/article/view/26548/34482).
 
 **AID Statement:** Artificial Intelligence Tool: Gemini 2.0 Flash (via Gemini CLI); Execution: Implemented PhD Sprint mode (30 min) - persistent randomizer logic - and GitHub deployment automation; Writing—Review & Editing: Updated documentation and ethical logs.
 
