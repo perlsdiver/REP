@@ -8,7 +8,10 @@ For more information and context on vibe coding prototypes, please visit the off
 ## AI Disclosure
 This project incorporates Kari D. Weaver's (2024) [AI Use Disclosure Guide Framework](https://crln.acrl.org/index.php/crlnews/article/view/26548/34482).
 
-**AID Statement:** Artificial Intelligence Tool: Gemini 2.0 Flash (via Gemini CLI); Execution: Implemented PhD Sprint mode (30 min) - persistent randomizer logic - and GitHub deployment automation; Writing—Review & Editing: Updated documentation and ethical logs.
+**AID Statement:** Artificial Intelligence Tool: Gemini 2.0 Flash (via Gemini CLI); Execution: Implemented deterministic "Seeded Randomizer" in theme.js and updated index.html with seed input UI; Writing—Review & Editing: Generated strategic roadmap for future enhancements and finalized project licensing (MIT). Finalized session updates.
+
+## Licensing
+This project is open-source and available under the **[MIT License](LICENSE)**. You are free to use, remix, and distribute this software, provided that the original copyright notice and permission notice are included.
 
 ## Features
 - Minimalist Pomodoro-style timer inspired by [Pomofocus.io](https://pomofocus.io/).
