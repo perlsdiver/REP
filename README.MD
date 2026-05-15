@@ -6,7 +6,7 @@ For more information and context on vibe coding prototypes, please visit the off
 [CUNY AI Lab: Vibe Coding Prototypes](https://cuny-ai-lab.github.io/vibe-coding-prototypes)
 
 ## AI Disclosure
-This project follows the [AI Use Disclosure Guide](https://crln.acrl.org/index.php/crlnews/article/view/26548/34482).
+This project incorporates Kari D. Weaver's (2024) [AI Use Disclosure Guide](https://crln.acrl.org/index.php/crlnews/article/view/26548/34482).
 
 **AID Statement:** Artificial Intelligence Tool: Gemini 2.0 Flash (via Gemini CLI); Execution: Implemented PhD Sprint mode (30 min) - persistent randomizer logic - and GitHub deployment automation; Writing—Review & Editing: Updated documentation and ethical logs.
 
