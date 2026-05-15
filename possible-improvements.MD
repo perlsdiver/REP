@@ -32,3 +32,36 @@ This document outlines strategic suggestions for the evolution of **Frankentimer
 
 ---
 **AID Statement:** Artificial Intelligence Tool: Gemini 2.0 Flash (via Gemini CLI); Execution: Documented improvement roadmap based on codebase analysis.
+
+## 6. Research-Driven Additions (May 15, 2026)
+
+### User Inquiry: Competitive Analysis
+*   **Prompt:** "search github for similar personal timer projects, analyze them, and suggest possible features to implement. include direct links to projects. explain advantages and disadvantages, including any risks from the code you find on other repositories."
+
+### Findings & Recommendations
+
+#### A. Flowtime Mode (Inspired by [Pomoru](https://github.com/ngntrgduc/pomodoro))
+*   **Feature:** Count-up timer that automatically calculates break duration based on work time (e.g., 1/5th ratio).
+*   **Rationale:** Adapts to the user's natural focus rhythm rather than forcing a 25-minute block.
+*   **Advantage:** Maximizes deep work; high "vibe" flexibility.
+*   **Disadvantage:** Requires complex break calculation logic and UI shifts.
+
+#### B. Overflow Mode (Inspired by [JustLockIn](https://github.com/Groundbreaking-Mud79/JustLockIn))
+*   **Feature:** Transition to count-up when the timer hits zero to track "extra" focus time without a jarring interruption.
+*   **Rationale:** Perfect for the "PhD Sprint" when you're close to finishing a thought.
+*   **Advantage:** Less stressful than immediate alarms; provides accurate total work data.
+*   **Disadvantage:** Reduces the urgency of the Pomodoro technique.
+
+#### C. Developer Palette Integration (Inspired by [Pomotroid](https://github.com/zidoro/pomotroid))
+*   **Feature:** Native support for Nord, Dracula, and Gruvbox color schemes.
+*   **Rationale:** Broadens appeal to the developer community by using familiar high-contrast palettes.
+*   **Advantage:** Immediate "professional" aesthetic appeal.
+*   **Disadvantage:** CSS bloat if not using a centralized theme engine.
+
+### Risk Assessment for External Implementations
+*   **Logic Porting:** Porting mathematical ratios (Flowtime) is safe.
+*   **State Transitions:** Transitioning from countdown to count-up (Overflow) requires robust state management to avoid event double-firing.
+*   **Assets:** Always verify licenses (MIT/GPL) for SVG icons or audio clips sourced from external repositories.
+
+---
+**AID Statement:** Artificial Intelligence Tool: Gemini 2.0 Flash (via Gemini CLI); Execution: Performed competitive GitHub research and expanded the improvement roadmap with high-impact feature analysis.
